@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: rgb(122, 181, 181);
+    color: #000;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(54, 131, 131);
+}
+
+/* Grid de produtos */
+
+.container{
+    background-color: #dbd8d8;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url('../img/relogio1.jpg');
+}
+#img-2{
+    background-image: url('../img/relogio2.jpg');
+}
+#img-3{
+    background-image: url('../img/relogio3.jpg');
+}
+#img-4{
+    background-image: url('../img/relogio4.jpg');
+}
+#img-5{
+    background-image: url('../img/relogio5.jpg');
+}
+#img-6{
+    background-image: url('../img/relogio6.jpg');
+}
+#img-7{
+    background-image: url('../img/relogio7.jpg');
+}
+#img-8{
+    background-image: url('../img/relogio8.jpg');
+}
+#img-9{
+    background-image: url('../img/relogio9.jpg');
+}
+#img-10{
+    background-image: url('../img/relogio10.jpg');
+}
+#img-11{
+    background-image: url('../img/relogio11.jpg');
+}
+#img-12{
+    background-image: url('../img/relogio12.jpg');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: black;
+    border-left: 5px solid rgb(54, 131, 131);;
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(122, 181, 181);
+    color: #000;
+    padding: 15px;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: rgb(56, 158, 158)
+}
+/* Footer */
+
+footer{
+    background-color: rgb(173, 216, 216);
+    color: #000;
+    border-top: 3px solid rgb(147, 218, 218);
+    text-align: left;
+    display: flex;
+    padding: 10px;
+   
+}
+
+.contato {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
